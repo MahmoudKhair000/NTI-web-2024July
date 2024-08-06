@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.264" height="26" viewBox="0 0 15.264 26">
+  <g id="refrigerator" transform="translate(-101.28)">
+    <g id="Group_831" data-name="Group 831" transform="translate(101.28)">
+      <g id="Group_830" data-name="Group 830" transform="translate(0)">
+        <path id="Path_2473" data-name="Path 2473" d="M114.792,0H103.027a1.747,1.747,0,0,0-1.747,1.741V24.259A1.74,1.74,0,0,0,103.027,26h11.765a1.752,1.752,0,0,0,1.753-1.741V1.741A1.748,1.748,0,0,0,114.792,0Zm.622,24.264a.614.614,0,0,1-.622.611H103.027a.613.613,0,0,1-.616-.611V10.741h13V24.264Zm0-14.654h-13V1.741a.613.613,0,0,1,.616-.611h11.765a.621.621,0,0,1,.622.611Z" transform="translate(-101.28)" fill="#dcbb6a"/>
+        <path id="Path_2474" data-name="Path 2474" d="M325.845,85.333a.567.567,0,0,0-.565.565V88.16a.565.565,0,1,0,1.131,0V85.9A.567.567,0,0,0,325.845,85.333Z" transform="translate(-313.408 -80.81)" fill="#dcbb6a"/>
+        <path id="Path_2475" data-name="Path 2475" d="M325.845,227.957a.567.567,0,0,0,.565-.565v-2.827a.565.565,0,1,0-1.131,0v2.827A.567.567,0,0,0,325.845,227.957Z" transform="translate(-313.408 -212.128)" fill="#dcbb6a"/>
+      </g>
+    </g>
+  </g>
+</svg>

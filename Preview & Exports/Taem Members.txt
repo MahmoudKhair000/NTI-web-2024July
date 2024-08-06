@@ -1,0 +1,20 @@
+محمود السيد
+عبدالله ياسر
+الاء ممدوح
+مصطفى محمد
+طارق علاء
+
+** Minimum Number of pages: 5 pages.
+
+Don't type a code, Just think and analyze:
+-what will we use to do this?
+-where is it repeated?
+
+define backgrounds
+define colors
+define a font
+define repeated components & boxes
+
+
+-give them logical tasks
+-appreciate their work

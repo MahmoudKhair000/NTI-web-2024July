@@ -1,0 +1,768 @@
+:root {
+    --transition: all 0.5s ease-in;
+    /* Colors */
+    --golden: #DCBB6A;
+    --gray: #333333;
+    --dark-gray: #272727;
+    --bg-gray: rgba(0, 0, 0, 0.77);
+    --txt-like-white: #D6D6D6;
+    --txt-black: #333333;
+    --nav: #000000dd;
+    /* Box shadow */
+    --box-shadow: #dcbc6aaa 18px 18px 0px;
+    /* URLs */
+    --bg-art-white: url("../assets/images/general/bg-art-white.svg");
+    --bg-art-golden: url("../assets/images/general/bg-art-golden.svg");
+    --bg-art-black: url("../assets/images/general/bg-art-black.svg");
+    --ribbon-plat: url("../assets/images/general/boat-card/ribbon-1.svg");
+    --ribbon-gold: url("../assets/images/general/boat-card/ribbon-2.svg");
+    --ribbon-silv: url("../assets/images/general/boat-card/ribbon-3.svg");
+    --card-plat: url("../assets/images/general/boat-card/boat-1.png");
+    --card-gold: url("../assets/images/general/boat-card/boat-2.png");
+    --card-silv: url("../assets/images/general/boat-card/boat-3.png");
+    --video-placeholder: url("../assets/images/general/video-pic.png");
+    --play-btn: url('../assets/icons/play-btn.svg');
+}
+
+.bg-art-white {
+    background-image: linear-gradient(to top, #fff 0%, #ffffff11 100%), var(--bg-art-white);
+}
+
+.bg-art-golden {
+    background-image: linear-gradient(to top, #dcbc6a 0%, #dcbc6a11 100%), var(--bg-art-golden);
+}
+
+.bg-art-black {
+    background-image: linear-gradient(to top, #272727 0%, #27272711 100%), var(--bg-art-black);
+}
+
+body>* {
+    background-color: #fff;
+}
+
+/* Start header */
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../assets/images/cruises/cruises-bg.png');
+    background-size: cover;
+    background-position: top;
+    position: fixed;
+    top: 0;
+    z-index: -2;
+}
+
+.header-holder {
+    height: 100vh;
+    width: 100%;
+    background-color: transparent;
+}
+
+.main-bg-icon img {
+    margin: 30px 0;
+    display: block;
+    width: 70px;
+    height: 70px;
+    padding: 15px;
+    background-color: var(--gray);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.first-img {
+    background-color: var(--golden) !important;
+}
+
+.header-text {
+    color: #fff;
+    text-align: end;
+    font-weight: 400;
+}
+
+.header-text h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.header-text p {
+    text-transform: capitalize;
+}
+
+/* End header */
+
+/* Start header */
+header {
+    height: 100vh;
+    width: 100%;
+    background-image: url('../assets/images/cruises/cruises-bg.png');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.luxary {
+    padding: 20px;
+    border-radius:20px;
+    position: relative;
+    right: 5%;
+    background-color: #27272766;
+}
+
+.header-holder {
+    height: 100vh;
+    width: 100%;
+    background-color: transparent;
+}
+
+.first-img {
+    background-color: var(--golden) !important;
+}
+
+.main-bg-icon img {
+    margin: 30px 0;
+    display: block;
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+    background-color: var(--gray);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.header-text {
+    color: #fff;
+    text-align: end;
+    font-weight: 400;
+}
+
+.header-text h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.header-text p {
+    text-transform: capitalize;
+}
+
+/* End header */
+
+/* Start navbar */
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: var(--nav);
+    border-bottom: 2px solid var(--golden);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    position: fixed;
+    z-index: 9;
+}
+
+nav ul {
+    margin: 0;
+    justify-self: right;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+nav .container {
+    width: 80% !important;
+}
+
+nav ul img {
+    padding: 0 5px;
+    margin: 0;
+}
+
+.menu {
+    visibility: hidden;
+    background-color: transparent !important;
+}
+
+.menu .dropdown a {
+    padding: 0;
+    background-color: transparent !important;
+    border: 0;
+}
+
+.menu .dropdown img {
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown {
+    background-color: transparent;
+}
+
+@media(max-width:992px) {
+    nav .links {
+        display: none;
+        width: 0;
+    }
+
+    nav .row {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        visibility: visible;
+        justify-self: flex-end;
+    }
+
+    .menu .dropdown-menu {
+        background-color: var(--nav);
+        border: 0.5px solid var(--golden);
+    }
+
+    .menu .dropdown-menu hr {
+        background-color: var(--golden);
+    }
+
+    .menu .dropdown-menu li a {
+        height: 30px;
+        font-size: 20px;
+    }
+
+    .menu .dropdown-menu li a img {
+        width: 20px;
+    }
+}
+
+@media(max-width:1200px) {
+    nav .row {
+        width: 120%;
+        margin-left: -10%;
+    }
+}
+
+nav a {
+    color: var(--golden);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1px 5px;
+}
+
+nav ul li {
+    border-radius: 5px;
+    transition: all 0.8s ease;
+}
+
+nav ul li:not(.rsv-btn):hover {
+    background-color: black;
+}
+
+.rsv-btn {
+    background-color: #DCBB6A;
+}
+
+.rsv-btn a {
+    color: #000 !important;
+}
+
+.rsv-btn:hover {
+    background-color: transparent;
+    border: 0;
+}
+
+.rsv-btn:hover a {
+    color: #dcbc6a !important;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+
+.links ul:nth-of-type(1) {
+    align-self: flex-end;
+    align-items: stretch;
+    width: 50%;
+}
+
+/* End navbar */
+/*===================================================================================================/
+/*===================================================================================================/
+/*===================================================================================================/
+/*===================================================================================================/
+/* Start footer */
+footer {
+    background-color: var(--gray);
+    color: var(--txt-like-white);
+    position: relative;
+    font-size: 16px;
+}
+
+@media(max-width:992px) {
+
+    .footer-content .row,
+    .footer-note .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .members {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .footer-note .row .footer-logo img {
+        height: 70px;
+        margin: 10px;
+    }
+
+    .footer-note .row div:last-child {
+        align-self: center;
+    }
+
+    .footer-content .row div {
+        width: 100%;
+        align-self: center;
+    }
+}
+
+footer h2 {
+    color: var(--golden);
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+footer h2 img {
+    margin-left: 10px;
+    height: 18px;
+    align-self: center;
+}
+
+.footer-links .links {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.footer-links .links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-links ul a {
+    text-decoration: none;
+    color: var(--txt-like-white);
+}
+
+.footer-weather {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.footer-weather .weather-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.footer-weather .weather-info div {
+    color: var(--txt-like-white);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer-weather .weather-info div img {
+    height: 50px;
+}
+
+.footer-contact .input-group {
+    height: 50px;
+    border: 2px solid var(--golden);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.footer-contact .input-group input {
+    border: 0;
+    background-color: transparent;
+    color: #FFF;
+}
+
+.footer-contact .input-group input::placeholder {
+    color: var(--txt-like-white);
+}
+
+.footer-contact .input-group button {
+    background-color: var(--golden);
+    color: var(--dark-gray);
+    border: 0;
+}
+
+.footer-contact .member a {
+    text-decoration: none;
+    box-sizing: border-box;
+    color: var(--txt-like-white);
+}
+
+.footer-contact .member {
+    margin-top: 10px !important;
+}
+
+.footer-note {
+    width: 100%;
+    background-color: var(--dark-gray);
+    padding: 10px;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+}
+
+.footer-note span {
+    color: var(--golden);
+}
+
+.footer-note .row div {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-note .footer-logo {
+    justify-self: center;
+    justify-content: center;
+}
+
+.footer-note .footer-logo img {
+    height: 50px;
+}
+
+/* End footer */
+
+/* ================================================================================================ */
+/* ================================================================================================ */
+/* ================================================================================================ */
+/* ================================================================================================ */
+/* ====================================Start Main Content========================================== */
+/* ================================================================================================ */
+/* ================================================================================================ */
+/* ================================================================================================ */
+/* ================================================================================================ */
+
+.all>.container:nth-child(1) {
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.all>.container:nth-child(1) .col-7 {
+    background-color: #dcbc6a18;
+    border-radius: 7px;
+}
+
+.all>.container:nth-child(1) p {
+    color: var(--dark-gray);
+    font-size: 12px;
+}
+
+.all>.container:nth-child(1) p a {
+    color: #e0bd63;
+}
+
+.all>.container:nth-child(1) img {
+    width: 50px;
+    margin: 20px;
+}
+
+.allcards {
+    margin: 0 auto;
+    margin-bottom: -125px;
+}
+
+.allcards .container {
+    translate: 0 -150px;
+}
+
+.main-img>img {
+    height: 250px;
+    margin-bottom: 20px !important;
+    object-fit: cover;
+}
+
+.img img {
+    height: 70px;
+    object-fit: cover;
+    width: 100%;
+}
+
+p {
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+h3,
+h1 {
+    margin-top: 10px;
+}
+
+.card {
+    background-color: #fff;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.card .row {
+    flex-wrap: wrap;
+    align-content: stretch;
+}
+
+p {
+    font-size: 16px;
+}
+
+h3,
+h1 {
+    color: #DCBB6A;
+}
+
+.img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-end;
+    padding: 0;
+    background-size: cover;
+    height: 120px;
+    color: #fff;
+    border: 3px solid #fff;
+}
+
+.slide {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.img-7 {
+    align-content: space-evenly;
+}
+
+.img button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 28px;
+    border: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.img button:hover {
+    cursor: pointer !important;
+}
+
+.img button {
+    border-radius: 2.5px;
+}
+
+.img button {
+    border-radius: 2.5px;
+}
+
+.img button img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.btn {
+    transition: all 0.5s ease-in;
+}
+
+.btn1 {
+    background-color: #DCBB6A;
+    border: 2px solid #edc358;
+    color: #333;
+    border: 0;
+}
+
+.btn1:hover {
+    background-color: #333;
+    color: #edc358 !important;
+}
+
+.btn2 {
+    background-color: #333333;
+    color: #fff;
+    border: 2px solid #333 !important;
+}
+
+.btn2:hover {
+    background-color: #333333;
+    color: #DCBB6A !important;
+}
+
+
+@media (min-width:992px) {
+    .col-1-7 {
+        width: 13.25% !important;
+    }
+
+    .img {
+        height: 70px;
+    }
+
+    .img-7 {
+        align-content: space-between;
+    }
+}
+
+h2 {
+    color: #DCBB6A;
+    font-size: 30px;
+}
+
+.p1 {
+    color: #fff;
+    font-size: 15px;
+}
+
+.text5 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.second button {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #fff;
+    width: 20%;
+    color: #fff;
+    transition: all 0.5s ease-in;
+}
+
+.second button:hover:not(.nofilter) {
+    color: #DCBB6A;
+    border-bottom: 2px solid #DCBB6A;
+}
+
+.nofilter {
+    border: 1px solid #DCBB6A;
+    color: #DCBB6A;
+}
+
+.boats {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.box {
+    max-width: 80%;
+    min-width: 320px;
+}
+
+.boat-cards {
+    margin: 0 auto;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.boat-card {
+    background-color: var(--gray);
+    color: var(--golden);
+    padding: 0;
+    margin: 0;
+    position: relative;
+    border-radius: 3px;
+}
+
+
+.boat-card img {
+    width: 100%;
+    border: 0;
+}
+
+.ribbon {
+    display: flex;
+    overflow: visible;
+    position: absolute;
+    max-width: 80px;
+    height: 80px;
+    top: -5px;
+    left: -5px;
+}
+
+.boat-card div {
+    padding: 0 10px;
+    overflow: hidden;
+    color: var(--golden)
+}
+
+.boat-card p img {
+    width: 15px;
+}
+
+.boat-card>.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boat-card .trip-details *p {
+    margin: 0;
+}
+
+.specs {
+    background-color: var(--dark-gray);
+}
+
+.itinerary {
+    height: 50px;
+}
+
+.itinerary .btn {
+    background-color: var(--golden);
+    height: fit-content;
+}
+
+.itinerary .btn:hover {
+    background-color: transparent;
+    border: 1px solid var(--golden);
+}

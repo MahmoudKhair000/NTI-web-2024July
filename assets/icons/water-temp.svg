@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47.665" height="37.863" viewBox="0 0 47.665 37.863">
+  <g id="water-temp" transform="translate(1.505 1.5)">
+    <g id="Group_582" data-name="Group 582" transform="translate(0.008 12.424)">
+      <g id="Group_581" data-name="Group 581" transform="translate(0)">
+        <path id="Path_2096" data-name="Path 2096" d="M36.581,363.824a1.865,1.865,0,0,0-2.287.294,6.334,6.334,0,0,1-7.567,1.122,5.966,5.966,0,0,1-2.259-2.259,2.31,2.31,0,0,0-3.7,0,6.288,6.288,0,0,1-8.42,2.259,5.966,5.966,0,0,1-2.259-2.259,2.31,2.31,0,0,0-3.7,0,6.288,6.288,0,0,1-8.42,2.259,6.309,6.309,0,0,1-1.39-1.085,1.891,1.891,0,0,0-2.331-.314l-.228.134a1.873,1.873,0,0,0-.423,2.89,10.189,10.189,0,0,0,7.453,3.3,10.458,10.458,0,0,0,7.188-3.08,10.042,10.042,0,0,0,14.17.205l.205-.205a10.352,10.352,0,0,0,14.581-.205l.018-.018a1.849,1.849,0,0,0-.386-2.892Z" transform="translate(6.897 -362.056)" fill="#dcbb6a" stroke="#333" stroke-width="3"/>
+      </g>
+    </g>
+    <g id="Group_584" data-name="Group 584" transform="translate(0 26.8)">
+      <g id="Group_583" data-name="Group 583">
+        <path id="Path_2097" data-name="Path 2097" d="M36.514,513.162a1.867,1.867,0,0,0-2.3.319,6.2,6.2,0,0,1-4.481,1.913,6.128,6.128,0,0,1-5.339-3.08,2.31,2.31,0,0,0-3.7,0,6.288,6.288,0,0,1-8.42,2.259,5.965,5.965,0,0,1-2.259-2.259,2.31,2.31,0,0,0-3.7,0,6.288,6.288,0,0,1-8.42,2.259,6.307,6.307,0,0,1-1.39-1.085,1.891,1.891,0,0,0-2.331-.314l-.234.138a1.87,1.87,0,0,0-.421,2.892,10.415,10.415,0,0,0,12.8,1.655,6.4,6.4,0,0,0,1.848-1.438,10.042,10.042,0,0,0,14.17.205l.205-.205a10.352,10.352,0,0,0,14.581-.205l.018-.018a1.849,1.849,0,0,0-.386-2.892Z" transform="translate(6.981 -511.389)" fill="#dcbb6a" stroke="#333" stroke-width="3"/>
+      </g>
+    </g>
+    <g id="Group_586" data-name="Group 586" transform="translate(20.284 4.107)">
+      <g id="Group_585" data-name="Group 585" transform="translate(0 0)">
+        <circle id="Ellipse_77" data-name="Ellipse 77" cx="2.054" cy="2.054" r="2.054" fill="#dcbb6a" stroke="#333" stroke-width="3"/>
+      </g>
+    </g>
+    <g id="Group_588" data-name="Group 588" transform="translate(34.66 8.214)">
+      <g id="Group_587" data-name="Group 587">
+        <circle id="Ellipse_78" data-name="Ellipse 78" cx="2.054" cy="2.054" r="2.054" fill="#dcbb6a" stroke="#333" stroke-width="3"/>
+      </g>
+    </g>
+    <g id="Group_590" data-name="Group 590" transform="translate(32.606 0)">
+      <g id="Group_589" data-name="Group 589">
+        <circle id="Ellipse_79" data-name="Ellipse 79" cx="2.054" cy="2.054" r="2.054" fill="#dcbb6a" stroke="#333" stroke-width="3"/>
+      </g>
+    </g>
+  </g>
+</svg>

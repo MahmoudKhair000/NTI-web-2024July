@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Reservation</title>
+        <link rel="icon" href="assets/icons/footer-logo.svg">
+        <link rel="stylesheet" href="./css/font-awesome/css/all.min.css">
+        <link rel="stylesheet" href="./css/font-awesome/css/v4-shims.min.css">
+        <link rel="stylesheet" href="./css/bootstrap.css">
+        <link rel="stylesheet" href="./css/register.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap">
+    </head>
+    <body>
+        <!--Start Navbar-->
+        <nav>
+            <div class="container align-self-center">
+                <div class="row">
+                    <div class="logo col col-lg-3 col-md-3 col-sm-6">
+                        <img src="./assets/icons/logo.svg" alt="">
+                    </div>
+                    <div class="menu col col-lg-1 col-md-2 col-sm-2">
+                        <div class="dropdown">
+                            <a
+                                class="btn"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false"
+                            >
+                                <img src="./assets/icons/menu.svg" alt="">
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="Schedule.html">Schedule</a>
+                                </li>
+                                <li>
+                                    <a href="boat.html">boats</a>
+                                </li>
+                                <li>
+                                    <a href="itineraries.html">itineraries</a>
+                                </li>
+                                <li>
+                                    <a href="./cruises.html">cruises</a>
+                                </li>
+                                <li>
+                                    <a href="./yachtclub.html">yacht agency</a>
+                                </li>
+                                <li>
+                                    <a href="#">info</a>
+                                </li>
+                                <hr class="dropdown-divider">
+                                <li>
+                                    <a href="./about.html">
+                                        about us
+                                        <img src="./assets/icons/info.svg" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#footer">
+                                        contact us
+                                        <img src="./assets/icons/mail.svg" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="links col col-lg-8 col-md-1 col-sm-1">
+                        <ul>
+                            <li>
+                                <a href="./about.html">
+                                    about us
+                                    <img src="./assets/icons/info.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#footer">
+                                    contact us
+                                    <img src="./assets/icons/mail.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li>
+                                <a href="Schedule.html">Schedule</a>
+                            </li>
+                            <li>
+                                <a href="boat.html">boats</a>
+                            </li>
+                            <li>
+                                <a href="itineraries.html">itineraries</a>
+                            </li>
+                            <li>
+                                <a href="./cruises.html">cruises</a>
+                            </li>
+                            <li>
+                                <a href="./yachtclub.html">yacht agency</a>
+                            </li>
+                            <li class="rsv-btn">
+                                <a href="./register.html">Reserve</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!--End Navbar-->
+        <div id="register" class="register bg-art-golden d-print-none">
+            <div class="container mt-4 mb-5">
+                <h1 class="text-center mb-4">Register</h1>
+            </div>
+            <hr>
+            <div class="container mt-4 mb-5">
+                <form class="">
+                    <div class="row mb-4 mt-5">
+                        <div class="col-12 col-xl-6">
+                            <input
+                                required
+                                type="text"
+                                class="form-control"
+                                id="firstName"
+                                placeholder="First Name"
+                            >
+                        </div>
+                        <div class="col-12 col-xl-6">
+                            <input
+                                required
+                                type="text"
+                                class="form-control"
+                                id="lastName"
+                                placeholder="Last Name"
+                            >
+                        </div>
+                    </div>
+                    <div class="row  mb-4 mt-5">
+                        <div class="mb-3 col-12 col-xl-4 ">
+                            <input
+                                required
+                                type="tel"
+                                class="form-control"
+                                id="number"
+                                placeholder="Phone"
+                            >
+                        </div>
+                        <div class="mb-3 col-12 col-xl-8">
+                            <input
+                                required
+                                type="email"
+                                class="form-control"
+                                id="Email"
+                                aria-describedby="emailHelp"
+                                placeholder="Email address"
+                            >
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="mb-3 col-12 col-xl-6">
+                            <label for="age" class="form-label">your age (+18) / (-70)</label>
+                            <input
+                                required
+                                type="number"
+                                class="form-control"
+                                id="age"
+                                min="18"
+                                max="70"
+                            >
+                        </div>
+                        <div class="mb-3 col-12 col-xl-6">
+                            <label for="dis" class="form-label">Any disabilities</label>
+                            <select id="dis" class="form-select" aria-label="Default select example">
+                                <option value="No" selected>No</option>
+                                <option value="Yes">Yes</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-6 mt-3 mb-3">
+                            <label for="trip">Trip service</label>
+                            <select class="form-select" id="trip" aria-label="Default select example">
+                                <option value="Diving" selected>Diving</option>
+                                <option value="Diving Safari">Diving Safari</option>
+                                <option value="Kite Surfing">Kite Surfing</option>
+                                <option value="Yacht Cruise">Yacht Cruise</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-lg-6 mt-3 mb-3">
+                            <label for="date">Trip date</label>
+                            <select id="date" class="form-select" aria-label="Default select example">
+                                <option value="Aug 11th" selected>Aug 11th</option>
+                                <option value="Aug 15th">Aug 15th</option>
+                                <option value="Aug 17th">Aug 17th</option>
+                                <option value="Aug 21st">Aug 21st</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-6 mt-3 mb-3">
+                            <label for="boat">Boat / Yacht</label>
+                            <select id="boat" class="form-select" aria-label="Default select example">
+                                <option value="My Turquise" selected>My Turquise</option>
+                                <option value="My Conceptum">My Conceptum</option>
+                                <option value="My Sea King">My Sea King</option>
+                                <option value="My Lucy" selected>My Lucy</option>
+                            </select>
+                        </div>
+                        <div class="col-12 col-lg-6 mt-3 mb-3">
+                            <label for="room">Boat room</label>
+                            <select id="room" class="form-select" aria-label="Default select example">
+                                <option value="Single Room" selected>Single Room</option>
+                                <option value="Double Room">Double Room</option>
+                                <option value="Family Room">Family Room</option>
+                                <option value="Suite">Suite</option>
+                            </select>
+                        </div>
+                    </div>
+                    <a href="#payment" onclick="Submit()" class="btn btn-primary mt-5 w-100">CheckOut</a>
+                </form>
+            </div>
+        </div>
+        <div id="payment" class="payment hide bg-art-white d-print-none">
+            <div class="container ">
+                <h1 class="text-center mb-4">Set up your credit or debitcard</h1>
+                <hr>
+                <img src="./assets/images/register/download.png" alt="">
+                <img src="./assets/images/register/mastercard-og-image.png" alt="">
+                <div class="cards position-relative">
+                    <form>
+                        <div class="mb-3">
+                            <label for="number" class="form-label"></label>
+                            <input
+                                required
+                                type="tel"
+                                class="p-3 form-control"
+                                id="numberCard"
+                                placeholder="Card number"
+                            >
+                            <i class="fa-regular fa-credit-card"></i>
+                        </div>
+                        <div class="mid d-flex justify-content-evenly position-relative">
+                            <div class="mb-3 w-50">
+                                <label for="date" class="form-label"></label>
+                                <input
+                                    required
+                                    type="text"
+                                    class="p-3 form-control"
+                                    id="date"
+                                    placeholder="Expiration date"
+                                >
+                            </div>
+                            <div class="mb-3 w-50">
+                                <label for="cvv" class="form-label"></label>
+                                <input
+                                    required
+                                    type="text"
+                                    class="p-3 form-control"
+                                    id="cvv"
+                                    placeholder="CVV"
+                                >
+                                <i class="fa-solid fa-circle-question"></i>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="name" class="form-label"></label>
+                            <input
+                                required
+                                type="text"
+                                class="p-3 form-control"
+                                id="nameCard"
+                                placeholder="Name on card"
+                            >
+                        </div>
+                    </form>
+                    <div class="standard d-flex justify-content-around align-items-center bg-body-secondary rounded">
+                        <div class="price text-center pt-4">
+                            <h3 id="price">1,200 Eg.P</h3>
+                            <p>standard</p>
+                        </div>
+                        <div class="change">
+                            <a class="btn btn-primary" onclick="Change()" href="#">change</a>
+                        </div>
+                    </div>
+                </div>
+                <a
+                    class="w-100 mt-3 mb-5 btn btn-primary"
+                    type="submit"
+                    onclick="Confirm()"
+                    href="#print-out"
+                >Confirm</a>
+            </div>
+        </div>
+        <div id="printOut" class="print-out hide bg-art-black pt-5">
+            <div class="container">
+                <div class="ticket mt-5">
+                    <div class="container pt-5">
+                        <div class="row">
+                            <div class="col-12 col-xxl-6">
+                                <h3>
+                                    First Name:
+                                    <span id="ticketFirstName">First Name</span>
+                                </h3>
+                            </div>
+                            <div class="col-12 col-xxl-6">
+                                <h3>
+                                    Last Name:
+                                    <span id="ticketLastName">Last Name</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-12 col-xl-8">
+                                <h3>
+                                    Mail:
+                                    <span id="ticketMail">First Name</span>
+                                </h3>
+                            </div>
+                            <div class="col-12 col-xxl-4">
+                                <h3>
+                                    Age:
+                                    <span id="ticketAge">First Name</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-12 col-xxl-6">
+                                <h3>
+                                    Phone:
+                                    <span id="ticketPhone">Last Name</span>
+                                </h3>
+                            </div>
+                            <div class="col-12 col-xxl-6">
+                                <h3>
+                                    Any disabilities:
+                                    <span id="ticketDis">No</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-12 col-xxl-6">
+                                <h3>
+                                    Trip:
+                                    <span id="ticketTrip">First Name</span>
+                                </h3>
+                            </div>
+                            <div class="col-12 col-xxl-6">
+                                <h3>
+                                    Trip date:
+                                    <span id="ticketDate">Last Name</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row">
+                            <div class="col-12 col-xxl-6">
+                                <h3>
+                                    Boat:
+                                    <span id="ticketBoat">My Turquise</span>
+                                </h3>
+                            </div>
+                            <div class="col-12 col-xxl-6">
+                                <h3>
+                                    Accomodation:
+                                    <span id="ticketRoom">Last Name</span>
+                                </h3>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <div class="notice mt-3">
+                        <img class="" src="./assets/icons/ticket-info.svg" alt="">
+                        <p class="">
+                            Please, Try to arrive earlier by an hour and a half. Boats and Yachts don't wait on late passengers
+                            , All gears and suits are pre-purchased and the whole yacht is pre-prepared,
+                            <span> If you miss your trip, You lose your money, and don't contact us and demand a refund.</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Start Footer-->
+        <footer id="footer">
+            <div class="footer-content">
+                <div class="container row">
+                    <div class="footer-links col-4">
+                        <h2 class="mt-5 mb-4">links</h2>
+                        <div class="links">
+                            <ul>
+                                <a href="#">
+                                    <i></i>
+                                    Special Offers
+                                </a>
+                                <a href="#">
+                                    <i></i>
+                                    Fleet
+                                </a>
+                                <a href="#">
+                                    <i></i>
+                                    Schedule
+                                </a>
+                                <a href="#">
+                                    <i></i>
+                                    itineraries
+                                </a>
+                            </ul>
+                            <ul>
+                                <a href="#">
+                                    <i></i>
+                                    Our Services
+                                </a>
+                                <a href="#">
+                                    <i></i>
+                                    Dive Center &amp; Prices
+                                </a>
+                                <a href="#">
+                                    <i></i>
+                                    Dive Maps
+                                </a>
+                                <a href="#">
+                                    <i></i>
+                                    Why Us
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-weather col-4">
+                        <h2 class="mt-5 weather-head mb-4">Red sea weather</h2>
+                        <div class="weather-info">
+                            <div class="air-temp">
+                                <img src="./assets/icons/air-temp.svg" alt="">
+                                <h4>26°</h4>
+                                <p>Air Temp</p>
+                            </div>
+                            <div class="water-temp">
+                                <img src="./assets/icons/water-temp.svg" alt="">
+                                <h4>24°</h4>
+                                <p>Water Temp</p>
+                            </div>
+                            <div class="air-speed">
+                                <img src="./assets/icons/air-flow.svg" alt="">
+                                <h4>5</h4>
+                                <p>Km/H</p>
+                            </div>
+                        </div>
+                        <div class="weather-note text-center mt-4">
+                            <p>It is recommended to wear Drysuit or 7 mm long wetsuit</p>
+                        </div>
+                    </div>
+                    <div class="footer-contact col-4">
+                        <h2 class="mt-5 mb-4">
+                            Contact Us
+                            <img src="./assets/icons/mail.svg" alt="">
+                        </h2>
+                        <div class="input-group mb-4">
+                            <input
+                                type="email"
+                                class="form-control col-8"
+                                placeholder="Enter your email"
+                                aria-label="Recipient's username"
+                                aria-describedby="button-addon2"
+                            >
+                            <button class="btn btn-outline-secondary col-4" type="button" id="button-addon2">Contact</button>
+                        </div>
+                        <h2 class="mt-5 mb-3 d-flex">
+                            Reach Us
+                            <img src="./assets/icons/sm-linked.svg" alt="">
+                        </h2>
+                        <div class="members row mb-4">
+                            <div class="member col-6">
+                                <a href="http://www.linkedin.com/in/mahmoud-al-seyyid">Mahmoud Khair</a>
+                            </div>
+                            <div class="member col-6">
+                                <a href="">Mostafa Mohamed</a>
+                            </div>
+                            <div class="member col-6">
+                                <a href="https://www.linkedin.com/in/a-laa-mamdouh-5b5729314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">Ala'a Mamdouh</a>
+                            </div>
+                            <div class="member col-6">
+                                <a href="">Tariq Alaa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-note">
+                <div class="container row">
+                    <div class="mt-2 mb-2 col-12 col-lg-5 col-md-12">
+                        Copyright ©
+                        Egyptian Cruising Company 2021 All rights reserved
+                    </div>
+                    <div class="mt-2 mb-2 col-12 col-lg-2 col-md-12 footer-logo">
+                        <img src="./assets/icons/footer-logo.svg" alt="">
+                    </div>
+                    <div class="mt-2 mb-2 col-12 col-lg-5 col-md-12">
+                        Replicated by &nbsp;
+                        <span>NTI web design, "group 3"</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--End Footer-->
+    </body>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/register.js"></script>
+</html>

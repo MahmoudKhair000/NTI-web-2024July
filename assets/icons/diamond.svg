@@ -1,0 +1,27 @@
+<svg id="Group_26" data-name="Group 26" xmlns="http://www.w3.org/2000/svg" width="45.254" height="45.855" viewBox="0 0 45.254 45.855">
+  <g id="Group_17" data-name="Group 17" transform="translate(0 10.74)">
+    <g id="Group_16" data-name="Group 16">
+      <path id="Path_9" data-name="Path 9" d="M48.387,129.057l-7.809-8.837a.9.9,0,0,0-.671-.3H12.063a.9.9,0,0,0-.671.3l-7.81,8.837a.9.9,0,0,0,.085,1.27l.005.007,21.642,24.4a.9.9,0,0,0,1.34,0l21.642-24.4.005-.007a.9.9,0,0,0,.085-1.27Zm-10.069-7.348-3.98,6.416-6.379-6.416Zm-5.88,7.046H19.532l6.453-6.492Zm-8.428-7.045-6.379,6.416-3.98-6.416Zm-12.086.614,3.989,6.431H6.241Zm-5.669,8.223H16.84l7.311,20.175Zm21.6,20.137,5.108-13.826a.9.9,0,0,0-1.68-.621l-5.287,14.31-7.248-20H45.715Zm8.2-21.928,3.989-6.431,5.684,6.431Z" transform="translate(-3.358 -119.918)" fill="#dcbb6a"/>
+    </g>
+  </g>
+  <g id="Group_19" data-name="Group 19" transform="translate(21.731)">
+    <g id="Group_18" data-name="Group 18">
+      <path id="Path_10" data-name="Path 10" d="M246.9,0a.9.9,0,0,0-.9.9V5.509a.9.9,0,0,0,1.791,0V.9A.9.9,0,0,0,246.9,0Z" transform="translate(-246 0)" fill="#dcbb6a"/>
+    </g>
+  </g>
+  <g id="Group_21" data-name="Group 21" transform="translate(25.991 3.277)">
+    <g id="Group_20" data-name="Group 20">
+      <path id="Path_11" data-name="Path 11" d="M298.356,36.858a.9.9,0,0,0-1.267,0l-3.262,3.262a.9.9,0,0,0,1.267,1.267l3.262-3.262A.9.9,0,0,0,298.356,36.858Z" transform="translate(-293.564 -36.595)" fill="#dcbb6a"/>
+    </g>
+  </g>
+  <g id="Group_23" data-name="Group 23" transform="translate(14.034 3.277)">
+    <g id="Group_22" data-name="Group 22">
+      <path id="Path_12" data-name="Path 12" d="M164.852,40.12l-3.262-3.262a.9.9,0,0,0-1.267,1.267l3.262,3.262a.9.9,0,0,0,1.267-1.267Z" transform="translate(-160.061 -36.595)" fill="#dcbb6a"/>
+    </g>
+  </g>
+  <g id="Group_25" data-name="Group 25" transform="translate(29.024 23.139)">
+    <g id="Group_24" data-name="Group 24">
+      <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="0.896" cy="0.896" rx="0.896" ry="0.896" fill="#dcbb6a"/>
+    </g>
+  </g>
+</svg>
